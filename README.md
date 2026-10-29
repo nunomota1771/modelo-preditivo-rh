@@ -25,3 +25,8 @@ O Random Forest foi escolhido por esse critério. No teste desta revisão obteve
 Abrir os notebooks pela ordem `01` a `06`. O notebook 03 prepara os dados; o 04 treina e guarda o modelo escolhido; o 05 calcula métricas e interpreta as variáveis; o 06 demonstra previsões com o pipeline guardado. O ficheiro `preparacao_rh.py` deve permanecer na mesma pasta dos notebooks. Os dados de entrada estão em `Data/input`; os resultados atuais em `Data/output` e o pipeline em `Data/models`.
 
 Os notebooks 03 a 06 foram executados sequencialmente nesta versão, sem células com erro. Ambiente usado na validação: Python 3.14.7, pandas 3.0.5 e scikit-learn 1.9.1. O trabalho é um protótipo pedagógico, não uma ferramenta aprovada para decisões reais de recursos humanos.
+
+
+## Apresentação
+
+[Descarregar o PowerPoint](Documentacao/Apresentacao_Projeto_4.1.pptx)
