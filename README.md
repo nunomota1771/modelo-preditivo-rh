@@ -1,34 +1,41 @@
-# Projeto RH — versão atualizada após a entrega
+# Previsão da intenção de mudança de emprego
 
-Esta pasta é uma revisão independente da versão originalmente entregue. Foram acrescentados **uma árvore de decisão e um Random Forest** à comparação com a regressão logística e o baseline. Os notebooks 01 e 02 mantêm a análise original; o notebook 03 teve corrigida a guarda de gráficos para poder ser executado novamente; os notebooks 04, 05 e 06 foram atualizados e executados de novo.
+## Objetivo
 
-## O que foi realmente testado
+Este projeto analisa se é possível prever a intenção de um candidato mudar de emprego a partir das suas características conhecidas. O objetivo é explorar como essa previsão pode apoiar a análise do departamento de Recursos Humanos.
 
-- Baseline: `DummyClassifier(strategy='most_frequent')`, que prevê sempre a classe maioritária.
-- Regressão logística: modelo da primeira versão.
-- Árvore de decisão: `max_depth=5`, `min_samples_leaf=50`, `class_weight='balanced'`, `random_state=42`.
-- Random Forest: `n_estimators=100`, `max_depth=8`, `min_samples_leaf=20`, `class_weight='balanced_subsample'`, `random_state=42`.
+## Dados
 
-Não treinámos KNN nesta versão. Não fizemos pesquisa em grelha ou pesquisa aleatória de hiperparâmetros. A preparação aprendida fica dentro do `Pipeline` em cada fold. A escolha do modelo usa o **F1 da classe Sim em cinco folds estratificados do treino**. O limiar de decisão continua em 0,50.
+O conjunto contém **19 158 candidatos** e **14 variáveis**: um identificador, 12 variáveis preditivas e a variável-alvo binária `procura_mudanca_emprego` (Sim/Não). Cerca de **24,9%** dos registos pertencem à classe Sim.
 
-| Candidato | F1 médio nos 5 folds do treino |
+## Preparação e modelação
+
+A preparação remove o identificador da modelação, trata valores em falta, transforma variáveis categóricas com One-Hot Encoding e prepara as variáveis numéricas. A divisão entre treino e teste é estratificada (80/20).
+
+Foram comparados um baseline, Regressão Logística, Árvore de Decisão e Random Forest. A escolha foi feita pelo F1 médio da classe Sim em cinco folds estratificados do conjunto de treino.
+
+| Modelo | F1 médio na validação cruzada |
 |---|---:|
 | Baseline | 0,000 |
-| Regressão logística | 0,466 |
-| Árvore de decisão | 0,611 |
-| Random Forest | 0,618 |
+| Regressão Logística | 0,466 |
+| Árvore de Decisão | 0,611 |
+| Random Forest | **0,618** |
 
-O Random Forest foi escolhido por esse critério. No teste desta revisão obteve F1 **0,605**, recall **0,746**, ROC-AUC **0,785** e Average Precision **0,512**. Cumpriu as três metas numéricas definidas no notebook 01 e superou o baseline em F1 e AP. O baseline teve F1 0,000 e AP 0,249.
+O Random Forest foi selecionado. No conjunto de teste, obteve **F1 0,605**, **recall 0,746** e **ROC-AUC 0,785**. O F1 foi semelhante no treino (0,624), na validação cruzada (0,618) e no teste (0,605), sem sinais relevantes de overfitting.
+
+## Leitura prática
+
+No teste, o modelo identificou **712 dos 955** candidatos com intenção de mudança (recall de 74,6%). Entre os alertas de mudança, **50,9%** correspondiam a casos Sim reais; os restantes implicariam contactos sem intenção declarada de mudança. A previsão deve apoiar a análise humana, nunca funcionar como decisão automática de RH.
 
 ## Como percorrer o projeto
 
-Abrir os notebooks pela ordem `01` a `06`. O notebook 03 prepara os dados; o 04 treina e guarda o modelo escolhido; o 05 calcula métricas e interpreta as variáveis; o 06 demonstra previsões com o pipeline guardado. O ficheiro `preparacao_rh.py` deve permanecer na mesma pasta dos notebooks. Os dados de entrada estão em `Data/input`; os resultados atuais em `Data/output` e o pipeline em `Data/models`.
+Abrir os notebooks pela ordem `01` a `06`: compreensão do negócio, compreensão dos dados, preparação, modelação, avaliação e demonstração de previsões. O ficheiro `preparacao_rh.py` deve permanecer na mesma pasta dos notebooks. Os dados de entrada, resultados e modelo guardado encontram-se em `Data/input`, `Data/output` e `Data/models`.
 
-Os notebooks 03 a 06 foram executados sequencialmente nesta versão, sem células com erro. Ambiente usado na validação: Python 3.14.7, pandas 3.0.5 e scikit-learn 1.9.1. O trabalho é um protótipo pedagógico, não uma ferramenta aprovada para decisões reais de recursos humanos.
+Ambiente de execução documentado: Python 3.14.7, pandas 3.0.5 e scikit-learn 1.9.1. Este projeto é um protótipo pedagógico, não uma ferramenta aprovada para decisões reais de recursos humanos.
 
 ## Apresentação
 
-Alguns diapositivos que resumem as principais etapas e resultados do projeto:
+Diapositivos selecionados com o contexto, os dados, a preparação, a modelação, a avaliação e as implicações para RH:
 
 <table>
 <tr><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-02.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-02.png" width="480" alt="Diapositivo 2: Contexto e objetivo"></a><br><sub>02 · Contexto e objetivo</sub></td><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-04.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-04.png" width="480" alt="Diapositivo 4: Conjunto de dados"></a><br><sub>04 · Conjunto de dados</sub></td></tr>
