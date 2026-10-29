@@ -1,0 +1,174 @@
+variavel,importancia
+num__indice_desenvolvimento_cidade,0.2279949353065504
+cat__cidade_Zona_065,0.16643362454619587
+cat__dimensao_empresa_Desconhecido,0.11198798951376145
+cat__tipo_empresa_Desconhecido,0.08537898678522887
+cat__tipo_empresa_Empresa privada,0.06252164145327808
+num__anos_experiencia_num,0.054373452371678566
+cat__inscricao_universidade_Curso a tempo inteiro,0.03206420498947701
+cat__nivel_educacao_Licenciatura,0.019727263503797665
+cat__area_formacao_Desconhecido,0.015050380246775168
+cat__experiencia_relevante_Com experiência relevante,0.014533769269862462
+cat__inscricao_universidade_Não inscrito,0.013911746884828918
+cat__cidade_Zona_049,0.013535962001735078
+num__pouca_experiencia,0.013468307777911762
+cat__cidade_Zona_014,0.013302214320133392
+cat__cidade_Zona_006,0.012410532521913757
+cat__experiencia_relevante_Sem experiência relevante,0.010493543304302234
+"cat__area_formacao_Ciência, Tecnologia, Engenharia e Matemática",0.010128257727814574
+cat__dimensao_empresa_50 a 99,0.009236873714442366
+num__log_horas_formacao,0.008358803904399005
+cat__dimensao_empresa_100 a 500,0.008308696714024288
+cat__nivel_educacao_Ensino Secundário,0.007800367811185543
+cat__anos_desde_ultimo_emprego_Mais de 4 anos,0.00737576866301801
+cat__cidade_Zona_012,0.00650466182790025
+cat__tipo_empresa_Startup financiada,0.00634640411736607
+cat__anos_desde_ultimo_emprego_Nunca,0.005619774720064063
+cat__genero_Desconhecido,0.005171401288645315
+cat__cidade_Zona_031,0.004820220327067982
+cat__genero_Masculino,0.0038850628188190125
+cat__nivel_educacao_Ensino Básico,0.003755562784498202
+cat__cidade_Zona_050,0.0032085190687853177
+cat__anos_desde_ultimo_emprego_1 ano,0.003129352205422744
+cat__dimensao_empresa_10000 ou mais,0.002986142106736545
+cat__dimensao_empresa_Menos de 10,0.0027474487953491437
+cat__dimensao_empresa_1000 a 4999,0.0027442820322301272
+cat__nivel_educacao_Mestrado,0.0025667316638129174
+cat__tipo_empresa_Setor público,0.002513767837090609
+cat__cidade_Zona_103,0.0018216946774018642
+cat__cidade_Zona_007,0.0018043243075960952
+cat__cidade_Zona_096,0.0015724235950005183
+cat__nivel_educacao_Desconhecido,0.0014959779448338098
+cat__dimensao_empresa_10 a 49,0.0014237703043187267
+cat__cidade_Zona_071,0.0013231232633081043
+cat__nivel_educacao_Doutoramento,0.0011608765809751793
+cat__cidade_Zona_104,0.0011502366533395411
+cat__dimensao_empresa_500 a 999,0.0009004931705103483
+cat__inscricao_universidade_Curso a tempo parcial,0.0008198298627673191
+cat__cidade_Zona_025,0.0007783870106256882
+cat__anos_desde_ultimo_emprego_Desconhecido,0.0007747656066966099
+cat__area_formacao_Humanidades,0.0007552956704033598
+cat__anos_desde_ultimo_emprego_4 anos,0.0006791394644291173
+cat__anos_desde_ultimo_emprego_2 anos,0.0006686164901027657
+cat__inscricao_universidade_Desconhecido,0.0006111396182505498
+cat__genero_Feminino,0.0005798291133176447
+cat__cidade_Zona_092,0.0005194306442009883
+cat__tipo_empresa_Startup em fase inicial,0.00045646300935531974
+cat__cidade_Zona_086,0.0004442419070355084
+cat__cidade_Zona_075,0.0004213973064510862
+cat__cidade_Zona_066,0.0004173548029221045
+cat__anos_desde_ultimo_emprego_3 anos,0.00038097250739803427
+cat__cidade_Zona_056,0.00034781155292426487
+cat__cidade_Zona_100,0.0003328882103569151
+cat__cidade_Zona_040,0.0003176382971404078
+cat__cidade_Zona_094,0.0003055393063509176
+cat__cidade_Zona_004,0.0002950631609801697
+cat__cidade_Zona_102,0.0002862221447414129
+cat__tipo_empresa_ONG,0.0002701374203896682
+cat__dimensao_empresa_5000 a 9999,0.00026460643556355367
+cat__area_formacao_Outro,0.00022980595212766846
+cat__cidade_Zona_062,0.000188473065782985
+cat__area_formacao_Gestão e Negócios,0.00017219792846554893
+cat__cidade_Zona_003,0.00016759738265469524
+cat__cidade_Zona_117,0.00014424152383782149
+cat__cidade_Zona_008,0.00014136753461947555
+cat__cidade_Zona_002,0.00012501955333317098
+cat__cidade_Zona_005,0.00011206397579445179
+cat__cidade_Zona_121,0.00010927960139952599
+cat__cidade_Zona_042,0.00010363122694607663
+cat__cidade_Zona_084,0.00010171747660928359
+cat__area_formacao_Artes,0.00010138552547395794
+cat__cidade_Zona_051,8.934882128112591e-05
+cat__tipo_empresa_Outro,8.846050772250345e-05
+cat__cidade_Zona_032,8.322651568790941e-05
+cat__area_formacao_Sem especialização,6.915103271921222e-05
+cat__cidade_Zona_122,4.808530007193344e-05
+cat__cidade_Zona_095,3.9484393639247944e-05
+cat__genero_Outro,3.828284808366666e-05
+cat__cidade_Zona_044,2.7635269415961317e-05
+cat__cidade_Zona_115,2.160403902784703e-05
+cat__cidade_Zona_052,1.4450280785076807e-05
+cat__cidade_Zona_105,6.526924855314029e-06
+cat__cidade_Zona_016,6.183538751008036e-07
+cat__cidade_Zona_028,0.0
+cat__cidade_Zona_030,0.0
+cat__cidade_Zona_010,0.0
+cat__cidade_Zona_015,0.0
+cat__cidade_Zona_011,0.0
+cat__cidade_Zona_021,0.0
+cat__cidade_Zona_019,0.0
+cat__cidade_Zona_020,0.0
+cat__cidade_Zona_018,0.0
+cat__cidade_Zona_017,0.0
+cat__cidade_Zona_013,0.0
+cat__cidade_Zona_009,0.0
+cat__cidade_Zona_001,0.0
+cat__cidade_Zona_029,0.0
+cat__cidade_Zona_026,0.0
+cat__cidade_Zona_022,0.0
+cat__cidade_Zona_023,0.0
+cat__cidade_Zona_024,0.0
+cat__cidade_Zona_041,0.0
+cat__cidade_Zona_039,0.0
+cat__cidade_Zona_038,0.0
+cat__cidade_Zona_037,0.0
+cat__cidade_Zona_035,0.0
+cat__cidade_Zona_036,0.0
+cat__cidade_Zona_034,0.0
+cat__cidade_Zona_033,0.0
+cat__cidade_Zona_027,0.0
+cat__cidade_Zona_081,0.0
+cat__cidade_Zona_101,0.0
+cat__cidade_Zona_097,0.0
+cat__cidade_Zona_093,0.0
+cat__cidade_Zona_091,0.0
+cat__cidade_Zona_090,0.0
+cat__cidade_Zona_077,0.0
+cat__cidade_Zona_099,0.0
+cat__cidade_Zona_098,0.0
+cat__cidade_Zona_079,0.0
+cat__cidade_Zona_078,0.0
+cat__cidade_Zona_061,0.0
+cat__cidade_Zona_060,0.0
+cat__cidade_Zona_058,0.0
+cat__cidade_Zona_059,0.0
+cat__cidade_Zona_064,0.0
+cat__cidade_Zona_063,0.0
+cat__cidade_Zona_068,0.0
+cat__cidade_Zona_067,0.0
+cat__cidade_Zona_069,0.0
+cat__cidade_Zona_070,0.0
+cat__cidade_Zona_072,0.0
+cat__cidade_Zona_073,0.0
+cat__cidade_Zona_043,0.0
+cat__cidade_Zona_046,0.0
+cat__cidade_Zona_047,0.0
+cat__cidade_Zona_048,0.0
+cat__cidade_Zona_045,0.0
+cat__cidade_Zona_054,0.0
+cat__cidade_Zona_055,0.0
+cat__cidade_Zona_057,0.0
+cat__cidade_Zona_053,0.0
+cat__cidade_Zona_080,0.0
+cat__cidade_Zona_083,0.0
+cat__cidade_Zona_082,0.0
+cat__cidade_Zona_085,0.0
+cat__cidade_Zona_087,0.0
+cat__cidade_Zona_088,0.0
+cat__cidade_Zona_089,0.0
+cat__cidade_Zona_074,0.0
+cat__cidade_Zona_076,0.0
+cat__cidade_Zona_123,0.0
+cat__cidade_Zona_112,0.0
+cat__cidade_Zona_110,0.0
+cat__cidade_Zona_107,0.0
+cat__cidade_Zona_111,0.0
+cat__cidade_Zona_106,0.0
+cat__cidade_Zona_113,0.0
+cat__cidade_Zona_118,0.0
+cat__cidade_Zona_119,0.0
+cat__cidade_Zona_114,0.0
+cat__cidade_Zona_116,0.0
+cat__cidade_Zona_120,0.0
+cat__cidade_Zona_108,0.0
+cat__cidade_Zona_109,0.0

@@ -1,0 +1,30 @@
+{
+  "tratamento_outliers": "manter",
+  "limites_iqr_diagnostico": {
+    "indice_desenvolvimento_cidade": {
+      "inferior": 0.4699999999999999,
+      "superior": 1.1900000000000002
+    },
+    "horas_formacao": {
+      "inferior": -74.5,
+      "superior": 185.5
+    },
+    "anos_experiencia_num": {
+      "inferior": -14.0,
+      "superior": 34.0
+    },
+    "log_horas_formacao": {
+      "inferior": 1.212180021271655,
+      "superior": 6.45451017880843
+    },
+    "pouca_experiencia": {
+      "inferior": 0.0,
+      "superior": 0.0
+    },
+    "universidade_tempo_inteiro": {
+      "inferior": 0.0,
+      "superior": 0.0
+    }
+  },
+  "mapeamentos_encoding": {}
+}

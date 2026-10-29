@@ -1,0 +1,15 @@
+{
+  "versao": "pos_entrega_arvore_v2",
+  "checks": {
+    "notebook_01": "validado_sem_erros",
+    "notebook_02": "validado_sem_erros",
+    "notebook_03": "validado_sem_erros",
+    "notebook_04": "validado_sem_erros",
+    "notebook_05": "validado_sem_erros",
+    "notebook_06": "validado_sem_erros",
+    "comparacao_cv": "3_candidatos_5_folds_consistentes",
+    "modelo_guardado": "arvore_escolhida_pela_cv",
+    "resultados": "3832_previsoes_metricas_e_metas_consistentes"
+  },
+  "status": "passou"
+}

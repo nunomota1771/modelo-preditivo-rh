@@ -1,0 +1,38 @@
+{
+  "01_P_business_understanding.ipynb": {
+    "estado": "sucesso",
+    "celulas_codigo": 0,
+    "celulas_executadas": 0,
+    "segundos": 1.24
+  },
+  "02_P_data_understanding.ipynb": {
+    "estado": "sucesso",
+    "celulas_codigo": 36,
+    "celulas_executadas": 36,
+    "segundos": 31.96
+  },
+  "03_data_preparation.ipynb": {
+    "estado": "sucesso",
+    "celulas_codigo": 36,
+    "celulas_executadas": 36,
+    "segundos": 9.03
+  },
+  "04_modeling.ipynb": {
+    "estado": "sucesso",
+    "celulas_codigo": 18,
+    "celulas_executadas": 18,
+    "segundos": 94.94
+  },
+  "05_evaluation.ipynb": {
+    "estado": "sucesso",
+    "celulas_codigo": 13,
+    "celulas_executadas": 13,
+    "segundos": 37.98
+  },
+  "06_deployment.ipynb": {
+    "estado": "sucesso",
+    "celulas_codigo": 8,
+    "celulas_executadas": 8,
+    "segundos": 3.36
+  }
+}

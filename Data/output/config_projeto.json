@@ -1,0 +1,68 @@
+{
+  "PROJETO": "RH_Mudanca_Emprego",
+  "DATA_PATH": "Data\\input\\Dados_RH_Mudanca_Emprego.csv",
+  "TARGET": "procura_mudanca_emprego",
+  "PROBLEM_TYPE": "classificacao",
+  "ID_COLS": [
+    "id_candidato"
+  ],
+  "NUM_COLS": [
+    "indice_desenvolvimento_cidade",
+    "anos_experiencia_num",
+    "log_horas_formacao",
+    "pouca_experiencia"
+  ],
+  "CAT_COLS": [
+    "cidade",
+    "genero",
+    "experiencia_relevante",
+    "inscricao_universidade",
+    "nivel_educacao",
+    "area_formacao",
+    "dimensao_empresa",
+    "tipo_empresa",
+    "anos_desde_ultimo_emprego"
+  ],
+  "RANDOM_STATE": 42,
+  "TEST_SIZE": 0.2,
+  "ESTRATEGIA_NUM": "median",
+  "ESTRATEGIA_CAT": "constant",
+  "ADD_INDICATOR": true,
+  "SCALER": "RobustScaler",
+  "USAR_PCA": false,
+  "FEATURES_NOVAS": [
+    "log_horas_formacao",
+    "pouca_experiencia",
+    "universidade_tempo_inteiro"
+  ],
+  "REMOVER_PREDITORES": [
+    "horas_formacao",
+    "universidade_tempo_inteiro"
+  ],
+  "TARGET_MAP": {
+    "Não": 0,
+    "Sim": 1
+  },
+  "RAW_FEATURES": [
+    "cidade",
+    "indice_desenvolvimento_cidade",
+    "genero",
+    "experiencia_relevante",
+    "inscricao_universidade",
+    "nivel_educacao",
+    "area_formacao",
+    "anos_experiencia",
+    "dimensao_empresa",
+    "tipo_empresa",
+    "anos_desde_ultimo_emprego",
+    "horas_formacao"
+  ],
+  "METRICA_PRINCIPAL": "f1",
+  "LIMIAR": 0.5,
+  "CV_FOLDS": 5,
+  "METAS": {
+    "f1": 0.5,
+    "recall": 0.6,
+    "roc_auc": 0.75
+  }
+}

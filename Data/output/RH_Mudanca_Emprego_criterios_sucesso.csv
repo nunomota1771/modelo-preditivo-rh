@@ -1,0 +1,4 @@
+criterio,meta,resultado,cumprido
+f1,0.5,0.6049277824978759,True
+recall,0.6,0.7455497382198953,True
+roc_auc,0.75,0.7850125658089887,True
