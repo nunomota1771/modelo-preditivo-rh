@@ -26,7 +26,17 @@ Abrir os notebooks pela ordem `01` a `06`. O notebook 03 prepara os dados; o 04 
 
 Os notebooks 03 a 06 foram executados sequencialmente nesta versão, sem células com erro. Ambiente usado na validação: Python 3.14.7, pandas 3.0.5 e scikit-learn 1.9.1. O trabalho é um protótipo pedagógico, não uma ferramenta aprovada para decisões reais de recursos humanos.
 
-
 ## Apresentação
 
-[Descarregar o PowerPoint](Documentacao/Apresentacao_Projeto_4.1.pptx)
+Alguns diapositivos que resumem as principais etapas e resultados do projeto:
+
+<table>
+<tr><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-01.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-01.png" width="480" alt="Diapositivo 1: Capa do projeto"></a><br><sub>01 · Capa do projeto</sub></td><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-02.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-02.png" width="480" alt="Diapositivo 2: Contexto e objetivo"></a><br><sub>02 · Contexto e objetivo</sub></td></tr>
+<tr><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-04.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-04.png" width="480" alt="Diapositivo 4: Conjunto de dados"></a><br><sub>04 · Conjunto de dados</sub></td><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-05.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-05.png" width="480" alt="Diapositivo 5: Distribuição da variável-alvo"></a><br><sub>05 · Distribuição da variável-alvo</sub></td></tr>
+<tr><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-06.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-06.png" width="480" alt="Diapositivo 6: Qualidade dos dados"></a><br><sub>06 · Qualidade dos dados</sub></td><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-11.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-11.png" width="480" alt="Diapositivo 11: Preparação dos dados"></a><br><sub>11 · Preparação dos dados</sub></td></tr>
+<tr><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-14.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-14.png" width="480" alt="Diapositivo 14: Escolha do modelo"></a><br><sub>14 · Escolha do modelo</sub></td><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-15.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-15.png" width="480" alt="Diapositivo 15: Desempenho no teste"></a><br><sub>15 · Desempenho no teste</sub></td></tr>
+<tr><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-17.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-17.png" width="480" alt="Diapositivo 17: Avaliação do overfitting"></a><br><sub>17 · Avaliação do overfitting</sub></td><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-18.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-18.png" width="480" alt="Diapositivo 18: Matriz de confusão"></a><br><sub>18 · Matriz de confusão</sub></td></tr>
+<tr><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-20.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-20.png" width="480" alt="Diapositivo 20: Custos e recursos"></a><br><sub>20 · Custos e recursos</sub></td><td align="center"><a href="Documentacao/Apresentacao_Projeto_4.1_slides/slide-22.png"><img src="Documentacao/Apresentacao_Projeto_4.1_slides/slide-22.png" width="480" alt="Diapositivo 22: Conclusões"></a><br><sub>22 · Conclusões</sub></td></tr>
+</table>
+
+[Descarregar o PowerPoint completo](Documentacao/Apresentacao_Projeto_4.1.pptx)
